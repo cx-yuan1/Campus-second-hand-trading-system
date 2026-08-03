@@ -1,0 +1,45 @@
+# ============ IDE / 编辑器 ============
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+*.settings/
+*.sublime-*
+*.sw?
+
+# ============ 后端构建产物 ============
+target/
+campus-second-backend/target/
+*.class
+
+# ============ 前端依赖与构建 ============
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.tgz
+
+# ============ 运行时上传文件 ============
+upload/
+
+# ============ 日志 ============
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============ 操作系统 ============
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============ 环境变量 / 敏感配置 ============
+.env
+.env.*
+!.env.example
