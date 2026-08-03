@@ -1,0 +1,32 @@
+/* 设计变量 */
+:root {
+  --primary-color: #409EFF;
+  --bg-color: #f5f7fa;
+  --sidebar-bg: linear-gradient(180deg, #f0f4f8 0%, #f8f9fa 100%);
+  --card-bg: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+  background-color: var(--bg-color);
+}
+
+/* 表格单元格字体统一，避免商品名称等列字体过大 */
+.el-table .el-table__body-wrapper .el-table__cell {
+  font-size: 13px;
+}
+
+/* 表格填满容器，消除右侧空隙；统一使用 min-width，无 fixed 列 */
+.el-table {
+  width: 100% !important;
+}
+.el-table .el-table__body-wrapper {
+  padding-right: 0 !important;
+}
