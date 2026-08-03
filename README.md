@@ -2,7 +2,7 @@
 
 # 获取方式
 
-本项目为校园二手交易系统，包含 Vue 3 前端、Spring Boot 后端和 MySQL 数据库脚本。项目适合在 Windows 环境下使用 IntelliJ IDEA、VS Code 或 WebStorm 进行本地开发与部署。
+# 获取方式---本文件是项目的部分文件，有需要可看【煮页】
 
 <br>
 
@@ -230,21 +230,21 @@ CampusSecond
 
 项目运行后可查看以下页面效果：
 
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
-![img_6.png](img_6.png)
-![img_7.png](img_7.png)
-![img_8.png](img_8.png)
-![img_9.png](img_9.png)
-![img_10.png](img_10.png)
-![img_11.png](img_11.png)
-![img_12.png](img_12.png)
-![img_13.png](img_13.png)
-![img_14.png](img_14.png)
+![img.png](images%2Fimg.png)
+![img_1.png](images%2Fimg_1.png)
+![img_2.png](images%2Fimg_2.png)
+![img_3.png](images%2Fimg_3.png)
+![img_4.png](images%2Fimg_4.png)
+![img_5.png](images%2Fimg_5.png)
+![img_6.png](images%2Fimg_6.png)
+![img_7.png](images%2Fimg_7.png)
+![img_8.png](images%2Fimg_8.png)
+![img_9.png](images%2Fimg_9.png)
+![img_10.png](images%2Fimg_10.png)
+![img_11.png](images%2Fimg_11.png)
+![img_12.png](images%2Fimg_12.png)
+![img_13.png](images%2Fimg_13.png)
+![img_14.png](images%2Fimg_14.png)
 
 #### 常见问题
 
