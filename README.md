@@ -1,7 +1,8 @@
 # 🛍️ 校园二手交易系统
 
 # 获取方式---本文件是项目的部分文件，有需要可看【煮页】
-# 企鹅：3660038549
+
+# 联系🐧: 3660038549（毕业设计-论文）
 
 <br>
 
@@ -74,106 +75,6 @@ MySQL 数据库：建议 MySQL 5.7 或 MySQL 8.0，请提前确认数据库账�
 11、实现后台仪表盘统计，展示商品、订单、用户、求购和捐赠数据及订单状态分布；
 
 12、实现文件上传功能，为商品图片、用户头像和轮播图提供统一的上传接口。
-
-#### 前台启动方式
-
-1. 进入前端目录：
-
-```bash
-cd campus-second-frontend
-```
-
-2. 安装前端依赖：
-
-```bash
-npm install
-```
-
-3. 启动前端开发服务：
-
-```bash
-npm run dev
-```
-
-4. 浏览器访问：`http://localhost:5173/`
-
-说明：前端 Vite 配置已将 `/api` 和 `/upload` 代理到 `http://localhost:8080`，启动前端前请先启动后端服务，以保证接口和图片资源正常访问。
-
-前端构建命令：
-
-```bash
-npm run build
-```
-
-构建完成后，可以使用以下命令预览构建结果：
-
-```bash
-npm run preview
-```
-
-#### 后台启动方式
-
-1. 在 MySQL 中创建数据库：
-
-```sql
-CREATE DATABASE `campus-second` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-```
-
-2. 导入项目根目录下的 `campus-second.sql`：
-
-```bash
-mysql -u root -p --database=campus-second < campus-second.sql
-```
-
-也可以使用 Navicat、DataGrip 或其他 MySQL 工具导入 SQL 文件。
-
-3. 修改 `campus-second-backend/src/main/resources/application.yml` 中的数据库配置：
-
-```yaml
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/campus-second?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
-    username: root
-    password: 123456
-```
-
-其中 `username` 和 `password` 请替换为本机 MySQL 的实际账号和密码。项目默认服务端口为 `8080`，上传目录为项目根目录下的 `upload/`。
-
-4. 使用 IDEA 打开 `campus-second-backend`，等待 Maven 依赖下载完成。
-
-5. 启动 `campus-second-backend/src/main/java/com/campus/CampusSecondApplication.java`。
-
-也可以在后端目录使用 Maven 命令启动：
-
-```bash
-cd campus-second-backend
-mvn spring-boot:run
-```
-
-也可以先打包再运行：
-
-```bash
-mvn clean package -DskipTests
-java -jar target/campus-second-backend-1.0.0.jar
-```
-
-后端启动成功后，前端访问 `http://localhost:5173/` 即可进入系统登录页。
-
-#### 默认账户密码
-
-**管理员**
-
-账号：`admin`
-
-密码：`admin`
-
-**普通用户**
-
-账号：`student01`
-
-密码：`123456`
-
-SQL 脚本中还提供了 `student02` 至 `student20` 等测试用户，默认密码均为 `123456`。
 
 #### 核心模块
 
